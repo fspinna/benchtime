@@ -1,0 +1,6 @@
+git+https://github.com/fspinna/datatime.git
+awkward
+numpy
+pandas
+sktime
+tqdm

@@ -1,0 +1,13 @@
+name: benchtime
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+    - sktime-all-extras
+    - pip
+    - pip:
+      - git+https://github.com/fspinna/datatime.git
+      - awkward
+      - numpy
+      - pandas
+      - tqdm
